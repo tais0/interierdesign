@@ -1,0 +1,103 @@
+.menu {
+  background-color: blueviolet;
+  width: 150px;
+  height: 100%;
+  position: fixed;
+  top: 5px;
+  border-radius: 5px;
+}
+.menu a {
+    display: block; 
+    color: cornsilk;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+.menu a:hover {
+  background-color: rgba(255, 255, 255, 0.637);
+}
+.menu h3{
+  color: white;
+}
+.main{
+  margin: 80px 40px 0px 360px;
+}
+.images img{
+  width: 45%;
+  border-radius: 10px;
+}
+h1 {
+  font-size: 70px;
+}
+h2 {
+  color: blueviolet;
+  font-size: 48px;
+}
+hr {
+  border-width: 5px;
+  border-style: solid;
+  border-color: blueviolet;
+}
+.member {
+  background-color: lightgray;
+  width: 30%;
+  display: inline-block;
+  border-radius: 8px;
+  margin:0px 9px
+}
+.member img {
+  width: 100%;
+  border-radius: 8px;
+}
+.tariffs ul{
+  background-color: white;
+  list-style-type: none;
+  padding: 0px;
+  margin: 20px 30px;
+  
+
+}
+.tariffs a{
+  background-color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px ;
+  color: white;
+}
+#basic1{
+    background-color: purple;
+    color: white;
+    padding: 35px 0px;
+    font-size: 25px;
+}
+#pro{
+  background-color: orange;
+  color: white;
+  padding: 35px 0px;
+  font-size: 25px;
+}
+.tariffs li{
+    border-bottom: 1px solid black;
+    padding: 20px 0px;
+    background-color: lightgray;
+
+        }  
+        #buy {
+          background-color: lightgray;
+      } 
+      .tariffs {
+        display: inline-block;
+      width: 45%;
+      text-align: center;
+      }
+      .contact input {
+        width: 100%;
+        padding: 10px 0;
+      }
+      .contact button {
+        width: 100%;
+        background-color: purple;
+        color: white;
+        margin: 10px 0px;
+        border-radius: 5px;
+        padding: 10px 0;
+      }
